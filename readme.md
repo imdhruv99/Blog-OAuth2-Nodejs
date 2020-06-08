@@ -1,10 +1,6 @@
 # Node js - Oauth2 - MongoDB
 
 Blog Website Back-End Example to show oauth2 implementation using passportjs, expressjs and Oauth2orize libraries, It is REST API server implementation in Node Js.
-
-  - Type some Markdown on the left
-  - See HTML in the right
-  - Magic
  
 # Prerequisite
    - node must be present on working machine.
