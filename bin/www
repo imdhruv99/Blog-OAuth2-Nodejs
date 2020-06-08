@@ -1,0 +1,10 @@
+var libs = process.cwd() + '/libs/';
+var config = require(libs + 'config');
+var log = require(libs + 'log')(module);
+var app = require(libs + 'server');
+
+app.set('port', process.env.PORT || config.get('port') || 7500);
+
+var server = app.listen(app.get('port'), function () {
+  log.info('Express server listening on port ' + app.get('port'));
+});

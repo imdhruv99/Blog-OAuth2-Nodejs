@@ -1,0 +1,20 @@
+{
+    "port": 7500,
+    "security": {
+        "tokenLife" : 3600
+    },
+    "mongoose": {
+        "uri": "mongodb://localhost:27017/oauth2"
+    },
+    "default": {
+        "user": {
+            "username": "dhruv",
+            "password": "dhruv1234"
+        },
+        "client": {
+            "name": "TestingClient API v1",
+            "clientId": "TestingClient",
+            "clientSecret": "65FD7BB67BDF9B2D55A92FB879EC1"
+        }
+    }
+}
