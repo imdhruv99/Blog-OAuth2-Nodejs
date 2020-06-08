@@ -65,6 +65,7 @@ Blog Website Back-End Example to show oauth2 implementation using passportjs, ex
     - Now, go to the ```Authorization``` setting, Select ```Bearer Token``` and pass Access Token.
     - This will give information of all the available users.
 - In project there are more apis constructed, you can test all those apis.
+- I have added Demo Screenshots in Screenshots Folder.
 
 # Module Used
 - express [ Application Module ]
