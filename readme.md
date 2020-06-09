@@ -1,7 +1,7 @@
 # Node js - Oauth2 - MongoDB
 
 Blog Website Back-End Example to show oauth2 implementation using passportjs, expressjs and Oauth2orize libraries, It is REST API server implementation in Node Js.
- 
+
 # Prerequisite
    - node must be present on working machine.
    - mongodb server also must be present on working machine.
@@ -39,15 +39,13 @@ Blog Website Back-End Example to show oauth2 implementation using passportjs, ex
     - Set ```method = POST ``` and pass the url ```http://localhost:7500/api/blogs```.
     - Now, go to ```Autorization``` setting, select ```Bearer Token``` and passs ```Access Token``` which you have generated.
     - Now, go to body panel, select ```raw``` option and select ```JSON``` from drop down.
-    ``` 
-	    {
+    - ``` {
             "title": "Hello World",
             "author": "Programming Bros",
             "discription": "This is testing Blog.",
             "image": "[ { "kind": "thumbnail", "url": "yourImageURL"}]"
             }
-
-    ```
+        ```
     - This will create a new blog, here title, author and discription are require option and image is not mendatory.
     
     # Updating Blog
@@ -58,12 +56,25 @@ Blog Website Back-End Example to show oauth2 implementation using passportjs, ex
     - It will update existing blog.
     
     # Get Your Information
-    - To get your information
+    - To get your information...
     - Set ```method = GET``` and pass the url ```http://localhost:7500/api/users/info```.
     - Now, go to the ```Authorization``` setting, Select ```Bearer Token``` and pass Access Token.
     - This will give information of all the available users.
-
+- In project there are more apis constructed, you can test all those apis.
 - I have added Demo Screenshots in Screenshots Folder.
+
+# Genereting and Running Docker Image using Docker file
+- To generate docker image...
+- ```docker build -t <your dockerhub username>/blog-oauth2-nodejs```
+- To running docker image...
+- ```docker run -p 49000:7500  -d <your docker username>/blog-oauth2-nodejs```
+- This will run container on port 7500 and 49000 is docker container port
+- Get Docker Container ID
+- ```docker ps```
+- Print output of app
+- ```docker logs < container ID >```
+- If you want to go inside the container
+- ```docker exec -it < container ID > /bin/bash
 
 # Module Used
 - express [ Application Module ]
