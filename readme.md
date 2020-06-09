@@ -39,13 +39,14 @@ Blog Website Back-End Example to show oauth2 implementation using passportjs, ex
     - Set ```method = POST ``` and pass the url ```http://localhost:7500/api/blogs```.
     - Now, go to ```Autorization``` setting, select ```Bearer Token``` and passs ```Access Token``` which you have generated.
     - Now, go to body panel, select ```raw``` option and select ```JSON``` from drop down.
-    - ``` {
+    ``` 
+        {
             "title": "Hello World",
             "author": "Programming Bros",
             "discription": "This is testing Blog.",
             "image": "[ { "kind": "thumbnail", "url": "yourImageURL"}]"
-            }
-        ```
+        }
+    ```
     - This will create a new blog, here title, author and discription are require option and image is not mendatory.
     
     # Updating Blog
