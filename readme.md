@@ -75,7 +75,7 @@ Blog Website Back-End Example to show oauth2 implementation using passportjs, ex
 - Print output of app
 - ```docker logs < container ID >```
 - If you want to go inside the container
-- ```docker exec -it < container ID > /bin/bash
+- ```docker exec -it < container ID > /bin/bash```
 
 # Module Used
 - express [ Application Module ]
