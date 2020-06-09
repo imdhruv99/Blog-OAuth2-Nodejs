@@ -39,7 +39,8 @@ Blog Website Back-End Example to show oauth2 implementation using passportjs, ex
     - Set ```method = POST ``` and pass the url ```http://localhost:7500/api/blogs```.
     - Now, go to ```Autorization``` setting, select ```Bearer Token``` and passs ```Access Token``` which you have generated.
     - Now, go to body panel, select ```raw``` option and select ```JSON``` from drop down.
-    - ``` {
+    - ``` 
+	   {
             "title": "Hello World",
             "author": "Programming Bros",
             "discription": "This is testing Blog.",
@@ -60,7 +61,7 @@ Blog Website Back-End Example to show oauth2 implementation using passportjs, ex
     - Set ```method = GET``` and pass the url ```http://localhost:7500/api/users/info```.
     - Now, go to the ```Authorization``` setting, Select ```Bearer Token``` and pass Access Token.
     - This will give information of all the available users.
-- In project there are more apis constructed, you can test all those apis.
+
 - I have added Demo Screenshots in Screenshots Folder.
 
 # Module Used
