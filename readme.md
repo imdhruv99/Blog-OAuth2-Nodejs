@@ -46,7 +46,8 @@ Blog Website Back-End Example to show oauth2 implementation using passportjs, ex
             "discription": "This is testing Blog.",
             "image": "[ { "kind": "thumbnail", "url": "yourImageURL"}]"
             }
-        ```
+
+    ```
     - This will create a new blog, here title, author and discription are require option and image is not mendatory.
     
     # Updating Blog
